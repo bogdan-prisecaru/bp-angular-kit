@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "paths": {
+      "@common/*": ["src/app/common/*"],
+      "@core/*": ["src/app/core/*"],
+      "@models/*": ["src/app/models/*"],
+      "@modules/*": ["src/app/modules/*"]
+    },
+    "sourceMap": true,
+    "target": "es2017"
+  },
+  "files": [
+    "src/index.ts",
+    "src/polyfills.ts"
+  ]
+}
